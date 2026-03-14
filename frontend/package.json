@@ -1,0 +1,12 @@
+{
+  "name": "snaptrader-frontend",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Dependency-free frontend stub for restricted build environments",
+  "scripts": {
+    "dev": "node -e \"console.log('Frontend stub: dependencies intentionally omitted in this environment')\"",
+    "build": "node -e \"console.log('No build step for frontend stub')\"",
+    "start": "node -e \"console.log('No runtime server for frontend stub')\""
+  },
+  "dependencies": {}
+}
